@@ -1,0 +1,19 @@
+{
+  "name": "transfer-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@noble/hashes": "^1.7.1",
+    "dotenv": "^16.4.7",
+    "ethereum-bloom-filters": "^1.2.0",
+    "ethereum-cryptography": "^3.1.0",
+    "web3": "^1.10.4"
+  }
+}
