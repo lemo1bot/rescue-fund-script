@@ -1,79 +1,50 @@
 
 
-Simple Step-by-Step Guide for Users
+Here's the updated README.md with all the code in copyable blocks:
 
-1. Ensure Node.js Is Installed
+# Rescue Fund from Hack Wallet
 
-Download and install Node.js from (nodejs.org)  if you haven't already.
+This script allows you to transfer tokens from an Ethereum wallet to another address securely. This can be useful for rescuing funds from compromised wallets.
 
-Verify installation by running:
+## Prerequisites
 
-(node -v)
-(npm -v)
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [NPM](https://www.npmjs.com/)
 
+## How to Use the Script
 
-2. Clone the Repository
+Follow these steps to use the script:
 
-Open your terminal.
+### 1. Clone the Repository
 
-Run:
+Run this command in your terminal to clone the repository:
 
-(git clone https://github.com/lemo1bot/rescue-fund-script.git)
+```bash
+git clone https://github.com/lemo1bot/rescue-fund-script.git
 
-This will create a folder named rescue-fund-script on your machine.
+2. Navigate to the Repository
 
+Navigate into the repository folder:
 
-3. Navigate to the Repository Directory
+cd rescue-fund-script
 
-Change into the directory:
+3. Install Dependencies
 
-(cd rescue-fund-script)
+Run this command to install the necessary dependencies:
 
+npm install
 
-4. Install Dependencies
+4. Run the Script
 
-Run the following command to install the required Node.js packages:
+Start the script by running the following command:
 
-(npm install)
+node rescue.js
 
-This installs packages like web3, dotenv, and readline (make sure your package.json is configured properly).
+5. Follow the Prompts
 
+When you run the script, it will ask for:
 
-5. Run the Script
+Your private key
 
-Start the script by running:
-
-(node rescue.js)
-
-
-6. Follow the Prompts
-
-The script will display a welcome message:
-
-===== RESCUE FUNDS FROM HACKED WALLET =====
-CREATED BY: LEMON
-FOLLOW ME ON TWITTER: @ROSLA_AHEMED
-===========================================
-
-It will then ask for:
-
-Private Key: The private key of the wallet you want to rescue funds from.
-
-Token Contract Address: The ERC-20 token’s contract address (for example, USDT’s address).
-
-Wallet Address: The wallet address where the tokens are located.
-
-Recipient Wallet Address: The address where you want to send the tokens.
-
-Amount of Tokens: Enter the amount (in the token's smallest units).
-
-
-
-7. Verify the Transaction
-
-After you provide all the required information, the script will process the transaction.
-
-If successful, it will display a transaction receipt or transaction hash.
-
-You can verify the transaction on Etherscan using the transaction hash.
-
+The token contract address
