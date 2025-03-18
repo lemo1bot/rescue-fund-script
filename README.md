@@ -1,5 +1,4 @@
-Here's the revised README.md with clean headings and without the "copyable" point:
-
+  FOLLOW ME ON X -@ROSLA_AHEMED
 # Rescue Fund from Hack Wallet
 
 This script allows you to transfer tokens from an Ethereum wallet to another address securely. This can be useful for rescuing funds from compromised wallets.
