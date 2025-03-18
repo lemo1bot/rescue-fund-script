@@ -4,12 +4,12 @@ Simple Step-by-Step Guide for Users
 
 1. Ensure Node.js Is Installed
 
-Download and install Node.js from nodejs.org if you haven't already.
+Download and install Node.js from (nodejs.org)  if you haven't already.
 
 Verify installation by running:
 
-node -v
-npm -v
+(node -v)
+(npm -v)
 
 
 2. Clone the Repository
@@ -18,7 +18,7 @@ Open your terminal.
 
 Run:
 
-git clone https://github.com/lemo1bot/rescue-fund-script.git
+(git clone https://github.com/lemo1bot/rescue-fund-script.git)
 
 This will create a folder named rescue-fund-script on your machine.
 
@@ -27,14 +27,14 @@ This will create a folder named rescue-fund-script on your machine.
 
 Change into the directory:
 
-cd rescue-fund-script
+(cd rescue-fund-script)
 
 
 4. Install Dependencies
 
 Run the following command to install the required Node.js packages:
 
-npm install
+(npm install)
 
 This installs packages like web3, dotenv, and readline (make sure your package.json is configured properly).
 
@@ -43,7 +43,7 @@ This installs packages like web3, dotenv, and readline (make sure your package.j
 
 Start the script by running:
 
-node rescue.js
+(node rescue.js)
 
 
 6. Follow the Prompts
