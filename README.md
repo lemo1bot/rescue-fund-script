@@ -1,5 +1,3 @@
-
-
 Here's the updated README.md with all the code in copyable blocks:
 
 # Rescue Fund from Hack Wallet
